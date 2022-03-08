@@ -24,7 +24,7 @@ def counts(n):
             sol[idx] = c
             if n == c:
                 res += 1
-                print(sol)
+                #print(sol)
             elif n > c:
                 res += recur(n-c, idx+1, sol)
             sol[idx] = 0
